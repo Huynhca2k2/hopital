@@ -111,6 +111,10 @@ img, video {
   object-fit: cover;
 }
 
+.img-box{
+  max-height: 440px;
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -710,6 +714,9 @@ img, video {
 .btn-special:hover{
   background: linear-gradient(to right, #2B7C76 , #358E88   );
 }
+.hei-440{
+  height: 440px;
+}
 .item-footer{
   padding: 0px 25px;
 }
@@ -722,8 +729,9 @@ img, video {
   padding: 10px 0px;
   background: linear-gradient(to right, #DBC192, #CBAE80,#B08E62 ,#B08E62 ,#B08E62 ,#8D653B  );
 }
+
 .content-nangluc{
-  
+  font-size: 12px;
   display: flex;
   justify-content: center;
 }
@@ -756,21 +764,25 @@ img, video {
   position: relative;
 }
 .content-chitiet{
-  width: 80%;
+  width: 64%;
   position: absolute;
   top: 30%;
   left: 10%;
-  line-height: 40px;
+  line-height: 1.4rem;
   color: #fff;
+  font-weight: 300;
+  margin: 0 50px;
 }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
   background-color: inherit !important;
   color: #2B9D9E;
   border-bottom: 2px #2B9D9E solid;
+  font-weight: 600;
 }
 .row{
   margin: 0px ;
 }
+
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link:hover{
   color: #2B9D9E !important; 
 }
@@ -803,16 +815,21 @@ img, video {
 }
 .content-tinhnang p{
   width: 50%;
-  line-height: 32px;
+  line-height: 1.2rem;
   padding: 20px 0;
   text-align: center;
+  color: var(--color-black-100);
 }
 .content-khanang p{
   width: 80% ;
   text-align: justify;
 }
+.img-tinhnang{
+  height: 100px;
+}
 .text-content-tinhnang{
-  line-height: 30px;
+  line-height: 1.2rem;
+  font-size: 14px;
 }
 .item-tinhnang{
   text-align: justify;
@@ -822,7 +839,7 @@ img, video {
 }
 .item-tinhnang h2{
   text-align: center;
-  line-height: 35px;
+  line-height: 1.4rem;
 }
 
 table{
@@ -839,7 +856,7 @@ table tr td{
   width: 50%;
 }
 .content-khangnang{
-  line-height: 35px;
+  line-height: 1.4rem;
 }
 .item-khanang{
   padding: 0px 30px;
@@ -915,7 +932,7 @@ table tr td{
 .text-dowload{
   color: #007976;
   margin-left: 10px;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 swiper-container {
@@ -1059,7 +1076,7 @@ input[type="file"] {
 }
 .form-du-an{
   z-index: 900;
-  top: 5%;
+  top: 0;
   right: 5%;
   width: max-content;
   padding: 20px 10px;
@@ -1098,6 +1115,8 @@ input[type="file"] {
 }
 .title-tintuc{
   border-bottom: 1px solid #8D653B;
+  margin-top: 40px;
+  font-weight: 400;
 }
 .name-post  {
   padding-right: 50px;
@@ -1108,7 +1127,8 @@ input[type="file"] {
 }
 .item-key{
   padding: 10px 0px;
-  border-bottom: 1px solid #8D653B;
+  /* border-bottom: 1px solid #8D653B; */
+  font-size: 14px;
 }
 .map{
   border: 1px solid #8D653B;
@@ -1180,6 +1200,9 @@ input[type="file"] {
 .text-thang-may{
   line-height: 2rem;
 }
+.fw-300{
+  font-weight: 300;
+}
 .text-color-1{
   font-weight: 300;
   color: var(--color-white-500);
@@ -1201,8 +1224,12 @@ input[type="file"] {
 }
 .text-btn-lienhe{
   top:32%;
-  left : 28%;
+  left : 27%;
   font-size: 13px;
+  font-style: italic;
+  font-weight: 600;
+  color: var(--color-white-100);
+  padding-right: 4px;
 }
 .btn-img-lienhe{
   bottom: 10%;
@@ -1370,6 +1397,8 @@ swiper-slide img {
 }
 .content-gioithieu{
   text-align: justify !important;
+  font-size: 12px;
+  line-height: 1rem;
 }
 @media(max-width : 1650px){
   .title-small{
@@ -1378,13 +1407,16 @@ swiper-slide img {
   .img-itek{
     padding-top: 2%;
   }
+  .hei-lap{
+    height: 410px;
+  }
 }
 @media(max-width : 1300px){
   .title-small{
-    font-size: 50px;
+    font-size: 44px;
   }
   .img-itek{
-    padding-top: 6%;
+    padding-top: 10%;
   }
 }
 @media(max-width : 768px){

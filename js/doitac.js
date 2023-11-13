@@ -13,9 +13,9 @@ doitac.innerHTML += `
         </div>
 
 
-        <div class='position-absolute content-doingu'>
+        <div class='position-absolute content-doingu fw-bold'>
           <h2 class='fs-5 py-2 text-dark'>ĐỘI NGŨ CHUYÊN GIA CỦA CHÚNG TÔI</h2>
-          <p >
+          <p class="text-justify fw-300">
           Đội ngũ chăm sóc khách hàng của iTEK ELEVATOR Việt Nam là một đội ngũ đáng tin cậy và đồng hành cùng khách hàng, đảm bảo rằng trải nghiệm của khách hàng với công ty luôn tốt nhất và đáp ứng mọi mong đợi.
           <br/>
           <br/>
