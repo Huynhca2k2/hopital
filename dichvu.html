@@ -1,0 +1,1104 @@
+<!-- <!DOCTYPE html>
+  <body>
+  </body>
+ -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link href="https://fonts.cdnfonts.com/css/segoe-ui-4" rel="stylesheet" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="https://cdn.pannellum.org/2.3/pannellum.css" />
+    <script
+      type="text/javascript"
+      src="https://cdn.pannellum.org/2.3/pannellum.js"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
+    <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+  />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+
+  <div id="hotline">
+
+  </div>
+
+    <div class="header"></div>
+
+    <div class="banner-home">
+      <img src="./img/dich-vu-banner.png" alt="" width="100%" />
+    </div>
+
+    <section class="py-5">
+      <div class="container">
+        <ul
+          class="nav link-nav nav-pills mb-3 align-items-center justify-content-between"
+          id="pills-tab"
+          role="tablist"
+        >
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link fw-bold active"
+              id="pills-home-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#thietketheoyeucau"
+              type="button"
+              role="tab"
+              aria-controls="pills-home"
+              aria-selected="true"
+            >
+              Thiết kế theo yêu cầu
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link fw-bold"
+              id="pills-profile-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#baotri"
+              type="button"
+              role="tab"
+              aria-controls="pills-profile"
+              aria-selected="false"
+            >
+              Bảo trì bảo dưỡng
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link fw-bold "
+              id="pills-contact-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#kiemdinh"
+              type="button"
+              role="tab"
+              aria-controls="pills-contact"
+              aria-selected="false"
+            >
+              Kiểm định an toàn thang máy
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link fw-bold "
+              id="pills-contact-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#decor"
+              type="button"
+              role="tab"
+              aria-controls="pills-contact"
+              aria-selected="false"
+            >
+              Decor thang máy
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" href="">
+              <div class="box-dichvu-phone box-dichvu-phone2">
+                <div class="position-relative">
+                  <div class="d-flex align-items-center">
+                    <div>
+                      <img src="./img/vector-xanh.png" alt="" width="50px" />
+                      <div class="position-absolute icon-phone">
+                        <img
+                          class=""
+                          src="./img/icon-phone.png"
+                          alt=""
+                          width="20px"
+                        />
+                      </div>
+                    </div>
+                    <div>
+                      <h5 class="text-light">Dịch vụ gọi khẩn cấp 24/7</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </li>
+        </ul>
+
+        <div class="tab-content" id="pills-tabContent">
+          <div
+            class="tab-pane fade show active relative"
+            id="thietketheoyeucau"
+            role="tabpanel"
+            aria-labelledby="pills-home-tab"
+          >
+            <div class="row">
+              <div class="col-12 col-md-4 mb-5 px-md-5">
+                <div id="panorama"></div>
+                <div>
+                  <h5 class="text-center fs-4 py-3">MẪU SẢN PHẨM YÊU CẦU</h5>
+                </div>
+                <div class="d-flex px-1 justify-content-center">
+                  <button id="downloadButton" class="d-flex align-items-center">
+                    <div>
+                      <img src="./img/icon-dowload.png" alt="" width="15px" />
+                    </div>
+                    <div>
+                      <span class="text-dowload">Tải về sản phẩm</span>
+                    </div>
+                  </button>
+                </div>
+              </div>
+              <div class="col-12 col-md-8 right-sp px-md-5">
+                <div>
+                  <div class="responsive">
+                    <div class="p-3">
+                      <img src="./img/mau-op-tran.png" alt="" width="100%" />
+                      <br />
+                      <div class="d-flex justify-content-center">
+                        <span class="name-mau">ET1 - 001</span>
+                      </div>
+                    </div>
+                    <div class="p-3">
+                      <img src="./img/mau-op-tran.png" alt="" width="100%" />
+                      <br />
+                      <div class="d-flex justify-content-center">
+                        <span class="name-mau">ET1 - 001</span>
+                      </div>
+                    </div>
+                    <div class="p-3">
+                      <img src="./img/mau-op-tran.png" alt="" width="100%" />
+                      <br />
+                      <div class="d-flex justify-content-center">
+                        <span class="name-mau">ET1 - 001</span>
+                      </div>
+                    </div>
+                    <div class="p-3">
+                      <img src="./img/mau-op-tran.png" alt="" width="100%" />
+                      <br />
+                      <div class="d-flex justify-content-center">
+                        <span class="name-mau">ET1 - 001</span>
+                      </div>
+                    </div>
+                    <div class="p-3">
+                      <img src="./img/mau-op-tran.png" alt="" width="100%" />
+                      <br />
+                      <div class="d-flex justify-content-center">
+                        <span class="name-mau">ET1 - 001</span>
+                      </div>
+                    </div>
+                    <div class="p-3">
+                      <img src="./img/mau-op-tran.png" alt="" width="100%" />
+                      <br />
+                      <div class="d-flex justify-content-center">
+                        <span class="name-mau">ET1 - 001</span>
+                      </div>
+                    </div>
+                    <div class="p-3">
+                      <img src="./img/mau-op-tran.png" alt="" width="100%" />
+                      <br />
+                      <div class="d-flex justify-content-center">
+                        <span class="name-mau">ET1 - 001</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-center py-4 align-items-center">
+                    <button class="prev border-0">
+                      <img src="./img/prev-btn.png" alt="" width="20px" />
+                    </button>
+                    <strong class="px-4 fw-bold fs-4">MẪU ỐP TRẦN</strong>
+                    <button class="next border-0">
+                      <img src="./img/next-btn.png" alt="" width="20px" />
+                    </button>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="responsives">
+                    <div class="p-3">
+                      <img src="./img/mau-op-tran.png" alt="" width="100%" />
+                      <br />
+                      <div class="d-flex justify-content-center">
+                        <span class="name-mau">ET1 - 001</span>
+                      </div>
+                    </div>
+                    <div class="p-3">
+                      <img src="./img/mau-op-tran.png" alt="" width="100%" />
+                      <br />
+                      <div class="d-flex justify-content-center">
+                        <span class="name-mau">ET1 - 001</span>
+                      </div>
+                    </div>
+                    <div class="p-3">
+                      <img src="./img/mau-op-tran.png" alt="" width="100%" />
+                      <br />
+                      <div class="d-flex justify-content-center">
+                        <span class="name-mau">ET1 - 001</span>
+                      </div>
+                    </div>
+                    <div class="p-3">
+                      <img src="./img/mau-op-tran.png" alt="" width="100%" />
+                      <br />
+                      <div class="d-flex justify-content-center">
+                        <span class="name-mau">ET1 - 001</span>
+                      </div>
+                    </div>
+                    <div class="p-3">
+                      <img src="./img/mau-op-tran.png" alt="" width="100%" />
+                      <br />
+                      <div class="d-flex justify-content-center">
+                        <span class="name-mau">ET1 - 001</span>
+                      </div>
+                    </div>
+                    <div class="p-3">
+                      <img src="./img/mau-op-tran.png" alt="" width="100%" />
+                      <br />
+                      <div class="d-flex justify-content-center">
+                        <span class="name-mau">ET1 - 001</span>
+                      </div>
+                    </div>
+                    <div class="p-3">
+                      <img src="./img/mau-op-tran.png" alt="" width="100%" />
+                      <br />
+                      <div class="d-flex justify-content-center">
+                        <span class="name-mau">ET1 - 001</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-center py-4 align-items-center">
+                    <button class="prevs border-0">
+                      <img src="./img/prev-btn.png" alt="" width="20px" />
+                    </button>
+                    <strong class="px-4 fw-bold fs-4">MẪU ỐP SÀN</strong>
+                    <button class="nexts border-0">
+                      <img src="./img/next-btn.png" alt="" width="20px" />
+                    </button>
+                  </div>
+                </div>
+
+
+                <div>
+                  <div class="responsivess">
+                    <div class="p-3">
+                      <img src="./img/mau-op-tran.png" alt="" width="100%" />
+                      <br />
+                      <div class="d-flex justify-content-center">
+                        <span class="name-mau">ET1 - 001</span>
+                      </div>
+                    </div>
+                    <div class="p-3">
+                      <img src="./img/mau-op-tran.png" alt="" width="100%" />
+                      <br />
+                      <div class="d-flex justify-content-center">
+                        <span class="name-mau">ET1 - 001</span>
+                      </div>
+                    </div>
+                    <div class="p-3">
+                      <img src="./img/mau-op-tran.png" alt="" width="100%" />
+                      <br />
+                      <div class="d-flex justify-content-center">
+                        <span class="name-mau">ET1 - 001</span>
+                      </div>
+                    </div>
+                    <div class="p-3">
+                      <img src="./img/mau-op-tran.png" alt="" width="100%" />
+                      <br />
+                      <div class="d-flex justify-content-center">
+                        <span class="name-mau">ET1 - 001</span>
+                      </div>
+                    </div>
+                    <div class="p-3">
+                      <img src="./img/mau-op-tran.png" alt="" width="100%" />
+                      <br />
+                      <div class="d-flex justify-content-center">
+                        <span class="name-mau">ET1 - 001</span>
+                      </div>
+                    </div>
+                    <div class="p-3">
+                      <img src="./img/mau-op-tran.png" alt="" width="100%" />
+                      <br />
+                      <div class="d-flex justify-content-center">
+                        <span class="name-mau">ET1 - 001</span>
+                      </div>
+                    </div>
+                    <div class="p-3">
+                      <img src="./img/mau-op-tran.png" alt="" width="100%" />
+                      <br />
+                      <div class="d-flex justify-content-center">
+                        <span class="name-mau">ET1 - 001</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-center py-4 align-items-center">
+                    <button class="prevss border-0">
+                      <img src="./img/prev-btn.png" alt="" width="20px" />
+                    </button>
+                    <strong class="px-4 fw-bold fs-4">MẪU ỐP CẠNH</strong>
+                    <button class="nextss border-0">
+                      <img src="./img/next-btn.png" alt="" width="20px" />
+                    </button>
+                  </div>
+                </div>
+
+
+                <div>
+                  <div class="responsivesss">
+                    <div class="py-3 px-2">
+                      <img src="./img/box-content-demo-slider.png" alt="" width="100%" />
+                      <br />
+                      <div class="d-flex justify-content-center">
+                        <span class="name-mau">EK1 - 001</span>
+                      </div>
+                    </div>
+                    <div class="py-3 px-2">
+                      <img src="./img/box-content-demo-slider.png" alt="" width="100%" />
+                      <br />
+                      <div class="d-flex justify-content-center">
+                        <span class="name-mau">EK1 - 001</span>
+                      </div>
+                    </div>
+                    <div class="py-3 px-2">
+                      <img src="./img/box-content-demo-slider.png" alt="" width="100%" />
+                      <br />
+                      <div class="d-flex justify-content-center">
+                        <span class="name-mau">EK1 - 001</span>
+                      </div>
+                    </div>
+                    <div class="py-3 px-2">
+                      <img src="./img/box-content-demo-slider.png" alt="" width="100%" />
+                      <br />
+                      <div class="d-flex justify-content-center">
+                        <span class="name-mau">EK1 - 001</span>
+                      </div>
+                    </div>
+                    <div class="py-3 px-2">
+                      <img src="./img/box-content-demo-slider.png" alt="" width="100%" />
+                      <br />
+                      <div class="d-flex justify-content-center">
+                        <span class="name-mau">EK1 - 001</span>
+                      </div>
+                    </div>
+                    <div class="py-3 px-2">
+                      <img src="./img/box-content-demo-slider.png" alt="" width="100%" />
+                      <br />
+                      <div class="d-flex justify-content-center">
+                        <span class="name-mau">EK1 - 001</span>
+                      </div>
+                    </div>
+                    <div class="py-3 px-2">
+                      <img src="./img/box-content-demo-slider.png" alt="" width="100%" />
+                      <br />
+                      <div class="d-flex justify-content-center">
+                        <span class="name-mau">EK1 - 001</span>
+                      </div>
+                    </div>
+                    <div class="py-3 px-2">
+                      <img src="./img/box-content-demo-slider.png" alt="" width="100%" />
+                      <br />
+                      <div class="d-flex justify-content-center">
+                        <span class="name-mau">EK1 - 001</span>
+                      </div>
+                    </div>
+                    <div class="py-3 px-2">
+                      <img src="./img/box-content-demo-slider.png" alt="" width="100%" />
+                      <br />
+                      <div class="d-flex justify-content-center">
+                        <span class="name-mau">EK1 - 001</span>
+                      </div>
+                    </div>
+                    <div class="py-3 px-2">
+                      <img src="./img/box-content-demo-slider.png" alt="" width="100%" />
+                      <br />
+                      <div class="d-flex justify-content-center">
+                        <span class="name-mau">EK1 - 001</span>
+                      </div>
+                    </div>
+                    <div class="py-3 px-2">
+                      <img src="./img/box-content-demo-slider.png" alt="" width="100%" />
+                      <br />
+                      <div class="d-flex justify-content-center">
+                        <span class="name-mau">EK1 - 001</span>
+                      </div>
+                    </div>
+                    <div class="py-3 px-2">
+                      <img src="./img/box-content-demo-slider.png" alt="" width="100%" />
+                      <br />
+                      <div class="d-flex justify-content-center">
+                        <span class="name-mau">EK1 - 001</span>
+                      </div>
+                    </div>
+                    <div class="py-3 px-2">
+                      <img src="./img/box-content-demo-slider.png" alt="" width="100%" />
+                      <br />
+                      <div class="d-flex justify-content-center">
+                        <span class="name-mau">EK1 - 001</span>
+                      </div>
+                    </div>
+                  
+                  </div>
+                  <div class="d-flex justify-content-center py-4 align-items-center">
+                    <button class="prevsss border-0">
+                      <img src="./img/prev-btn.png" alt="" width="20px" />
+                    </button>
+                    <strong class="px-4 fw-bold fs-4">BẢNG ĐIỀU KHIỂN</strong>
+                    <button class="nextsss border-0">
+                      <img src="./img/next-btn.png" alt="" width="20px" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+
+            <div class="position-relative form-info">
+              <div >
+                <div class="title-form position-absolute">
+                  <h2>ĐIỀN THÔNG TIN VÀ GỬI MẪU SẢN PHẨM</h2>
+                </div>
+                <div class="row main-input">
+                  <div class="col-6 col-md-3 pb-3 position-relative">
+                    <input type="text" placeholder="Họ và tên" />
+                    <div class="icon-form">
+                      <img src="./img/user-form.png" alt="" width="20px" />
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-3 pb-3 position-relative">
+                    <input type="text" placeholder="Địa chỉ" />
+                    <div class="icon-form">
+                      <img src="./img/home-form.png" alt="" width="20px" />
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-3 pb-3">
+                    <input
+                      class="ps-3"
+                      type="text"
+                      placeholder="Kích thước hố thang"
+                    />
+                  </div>
+                  <div class="col-6 col-md-3 pb-3">
+                    <input class="ps-3" type="text" placeholder="Tải trọng" />
+                  </div>
+  
+                  <div class="col-6 col-md-3 pb-3 position-relative">
+                    <input type="text" placeholder="Điện thoại" />
+                    <div class="icon-form">
+                      <img src="./img/phone-form.png" alt="" width="20px" />
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-3 pb-3 position-relative">
+                    <input type="text" placeholder="Email" />
+                    <div class="icon-form">
+                      <img src="./img/mail-form.png" alt="" width="20px" />
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-3 pb-3">
+                    <input class="ps-3" type="text" placeholder="Số tầng" />
+                  </div>
+                  <div class="col-6 col-md-3 pb-3">
+                    <input class="ps-3" type="text" placeholder="Tốc độ" />
+                  </div>
+                </div>
+  
+                <div class="row">
+                  <div class="col-12 col-md-6">
+                    <textarea
+                      class="text-note"
+                      placeholder="Nội dung yêu cầu"
+                      name=""
+                      id=""
+                      cols="30"
+                      rows="10"
+                    ></textarea>
+                    <div class="py-2">
+                      <label class="custom-file-upload">
+                        <div class="d-flex align-items-center">
+                          <img src="./img/upload.png" alt="" width="20px" />
+                          <span class="ms-2">Gửi mẫu sản phẩm</span>
+                        </div>
+  
+                        <input type="file" />
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <h2 class="text-center text-light fs-5 py-2">
+                      Cần chuyên viên hỗ trợ
+                    </h2>
+                    <div class="row">
+                      <div class="col-12 col-md-6 py-2">
+                        <div class="text-light nvht p-2 border rounded">
+                          <span>Thanh Trúc</span>
+                          <span>087 6868 333</span>
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-6 py-2">
+                        <div class="text-light nvht p-2 border rounded">
+                          <span>Thanh Trúc</span>
+                          <span>087 6868 333</span>
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-6 py-2">
+                        <div class="text-light nvht p-2 border rounded">
+                          <span>Thanh Trúc</span>
+                          <span>087 6868 333</span>
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-6 py-2">
+                        <div class="text-light nvht p-2 border rounded">
+                          <span>Thanh Trúc</span>
+                          <span>087 6868 333</span>
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-6 py-2">
+                        <div class="text-light nvht p-2 border rounded">
+                          <span>Thanh Trúc</span>
+                          <span>087 6868 333</span>
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-6 py-2">
+                        <div class="text-light nvht p-2 border rounded">
+                          <span>Thanh Trúc</span>
+                          <span>087 6868 333</span>
+                        </div>
+                      </div>
+                    </div>
+                  
+                  </div>
+                </div>
+  
+                <div class="d-flex justify-content-center">
+                  <button class="btn-send px-5 py-3">GỬI YÊU CẦU</button>
+                </div>
+  
+                <div class="row">
+                  <div class="col-8">
+  
+                  </div>
+                  <div class="col-12 col-md-4 position-absolute btn-phone-green">
+                    <div class="d-flex justify-content-between align-items-center">
+                    
+                     
+                      <div class="d-flex py-4 align-items-center justify-content-center">
+                      <div>
+                        <img
+                          src="./img/phone-greed.png"
+                          alt=""
+                          width="30px"
+                        />
+                      </div>
+                      <div class="ms-2 text-light">
+                        <h5>Hotline 087 6868 333</h5>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                 
+                </div>
+              
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="tab-pane fade"
+            id="baotri"
+            role="tabpanel"
+            aria-labelledby="pills-profile-tab"
+          >
+            <div class="text-center">
+              <h2 class="fs-5 fw-bold py-4">BẢO TRÌ SỬA CHỮA</h2>
+            </div>
+            <div class="content-bao-tri py-2">
+              
+                <p>
+                  Tại iTEK ELEVATOR, chúng tôi tự hào là một trong những đơn vị
+                  hàng đầu trong lĩnh vực sản xuất, lắp đặt, bảo trì bảo dưỡng và
+                  sửa chữa và thay thế thiết bị thang máy. Với nhiều năm kinh
+                  nghiệm và đội ngũ kỹ thuật viên chuyên nghiệp, chúng tôi cam kết
+                  cung cấp cho khách hàng những dịch vụ chất lượng và đáng tin
+                  cậy.  <br></br>
+                  Dịch vụ bảo trì và sửa chữa thang máy đóng vai trò quan
+                  trọng trong việc đảm bảo hoạt động an toàn, hiệu quả của thang
+                  máy. Việc thực hiện bảo trì định kỳ và sửa chữa kịp thời giúp
+                  kéo dài tuổi thọ của thang máy và giảm thiểu nguy cơ sự cố không
+                  mong muốn. Đối với các tòa nhà cao tầng và công trình dân dụng,
+                  việc sử dụng dịch vụ bảo trì và sửa chữa thang máy chất lượng
+                  cao là một yếu tố quan trọng để đảm bảo sự an toàn và tiện ích
+                  cho khách hàng.
+                </p>
+              
+            </div>
+
+            <br> <br> <br> <br>
+            <div class="text-center">
+              <h2 class="fs-5  fw-bold py-4">TỐI ƯU HÓA VÒNG ĐỜI SẢN PHẨM</h2>
+            </div>
+            <div class="content-bao-tri ">
+              
+                <p>
+                  Tại iTEK ELEVATOR, chúng tôi tự hào là một trong những đơn vị
+                  hàng đầu trong lĩnh vực sản xuất, lắp đặt, bảo trì bảo dưỡng và
+                  sửa chữa và thay thế thiết bị thang máy. Với nhiều năm kinh
+                  nghiệm và đội ngũ kỹ thuật viên chuyên nghiệp, chúng tôi cam kết
+                  cung cấp cho khách hàng những dịch vụ chất lượng và đáng tin
+                  cậy.  <br></br>
+                  Dịch vụ bảo trì và sửa chữa thang máy đóng vai trò quan
+                  trọng trong việc đảm bảo hoạt động an toàn, hiệu quả của thang
+                  máy. Việc thực hiện bảo trì định kỳ và sửa chữa kịp thời giúp
+                  kéo dài tuổi thọ của thang máy và giảm thiểu nguy cơ sự cố không
+                  mong muốn. Đối với các tòa nhà cao tầng và công trình dân dụng,
+                  việc sử dụng dịch vụ bảo trì và sửa chữa thang máy chất lượng
+                  cao là một yếu tố quan trọng để đảm bảo sự an toàn và tiện ích
+                  cho khách hàng.
+                </p>
+              
+            </div>
+            <div class="img-bao-duong py-1">
+              <div class="row item-bao-duong py-5">
+                <div class="col-12 col-md-6 ">
+                  <img src="./img/bao-duong.png" alt="" width="100%">
+                </div>
+                <div class="col-12 col-md-6 ">
+                  <img src="./img/bao-duong.png" alt="" width="100%">
+                </div>
+              </div>
+            </div>
+
+              <div class="row">
+                <div class="col-12 col-md-6 py-2">
+                  
+                  <div class="item-bao-tri text-light">
+                    <div>
+                      <img src="./img/bao-tri.png" alt="" width="100%">
+                    </div>
+                    <div class="content-baotri p-4">
+                      <h5 class="text-center py-2 fs-5">HỖ TRỢ KHÁCH HÀNG & SỬA CHỮA</h5>
+                      <p>Dịch vụ sửa chữa của iTEK ELEVATOR bao gồm khảo sát, chẩn đoán và sửa chữa các lỗi kỹ thuật trên thang máy. Với kiến thức và kỹ năng chuyên môn, đội ngũ kỹ thuật viên của chúng tôi có khả năng xử lý mọi vấn đề từ nhỏ đến lớn, đảm bảo thang máy của bạn hoạt động trơn tru và an toàn</p>
+                    </div>
+  
+                  </div>
+                
+                </div>
+                <div class="col-12 col-md-6 py-2">
+                  
+                  <div class="item-bao-tri text-light">
+                    <div>
+                      <img src="./img/bao-tri.png" alt="" width="100%">
+                    </div>
+                    <div class="content-baotri p-4">
+                      <h5 class="text-center py-2 fs-5">BẢO TRÌ</h5>
+                      <p>Dịch vụ sửa chữa của iTEK ELEVATOR bao gồm khảo sát, chẩn đoán và sửa chữa các lỗi kỹ thuật trên thang máy. Với kiến thức và kỹ năng chuyên môn, đội ngũ kỹ thuật viên của chúng tôi có khả năng xử lý mọi vấn đề từ nhỏ đến lớn, đảm bảo thang máy của bạn hoạt động trơn tru và an toàn</p>
+                    </div>
+  
+                  </div>
+                
+                </div>
+              </div>
+
+              <div class="hotrongay">
+                <button>
+                  <img src="./img/hotrongay.png" alt="" width="200px">
+                </button>
+              </div>
+          
+          </div>
+
+          <div
+            class="tab-pane fade"
+            id="kiemdinh"
+            role="tabpanel"
+            aria-labelledby="pills-profile-tab"
+          >
+          <div class="text-center">
+            <h2 class="fs-5">TẠI SAO CẦN KIỂM ĐỊNH THANG MÁY ĐỊNH KỲ</h2>
+          </div>
+          <div class="content-bao-tri py-2">
+            
+              <p>
+                Tại iTEK ELEVATOR, chúng tôi tự hào là một trong những đơn vị hàng đầu trong lĩnh vực sản xuất, lắp đặt, bảo trì bảo dưỡng và sửa chữa và thay thế thiết bị thang máy. Với nhiều năm kinh nghiệm và đội ngũ kỹ thuật viên chuyên nghiệp, chúng tôi cam kết cung cấp cho khách hàng những dịch vụ chất lượng và đáng tin cậy. <br></br>
+                Dịch vụ bảo trì và sửa chữa thang máy đóng vai trò quan trọng trong việc đảm bảo hoạt động an toàn, hiệu quả của thang máy. Việc thực hiện bảo trì định kỳ và sửa chữa kịp thời giúp kéo dài tuổi thọ của thang máy và giảm thiểu nguy cơ sự cố không mong muốn. Đối với các tòa nhà cao tầng và công trình dân dụng, việc sử dụng dịch vụ bảo trì và sửa chữa thang máy chất lượng cao là một yếu tố quan trọng để đảm bảo sự an toàn và tiện ích cho khách hàng.
+              </p>
+            
+          </div>
+          <br> <br> <br> <br>
+          <div class="text-center">
+            <h2 class="fs-5">KIỂM ĐỊNH GIÚP THANG MÁY AN TOÀN HƠN</h2>
+          </div>
+          <div class="content-bao-tri py-2">
+            
+              <p>
+                Tại iTEK ELEVATOR, chúng tôi tự hào là một trong những đơn vị hàng đầu trong lĩnh vực sản xuất, lắp đặt, bảo trì bảo dưỡng và sửa chữa và thay thế thiết bị thang máy. Với nhiều năm kinh nghiệm và đội ngũ kỹ thuật viên chuyên nghiệp, chúng tôi cam kết cung cấp cho khách hàng những dịch vụ chất lượng và đáng tin cậy.
+                <br></br>
+                Dịch vụ bảo trì và sửa chữa thang máy đóng vai trò quan trọng trong việc đảm bảo hoạt động an toàn, hiệu quả của thang máy. Việc thực hiện bảo trì định kỳ và sửa chữa kịp thời giúp kéo dài tuổi thọ của thang máy và giảm thiểu nguy cơ sự cố không mong muốn. Đối với các tòa nhà cao tầng và công trình dân dụng, việc sử dụng dịch vụ bảo trì và sửa chữa thang máy chất lượng cao là một yếu tố quan trọng để đảm bảo sự an toàn và tiện ích cho khách hàng.
+
+              </p>
+            
+          </div>
+          <div class="img-bao-duong py-1">
+            <div class="row item-bao-duong py-5">
+              <div class="col-12 col-md-6 ">
+                <img src="./img/bao-duong.png" alt="" width="100%">
+              </div>
+              <div class="col-12 col-md-6 ">
+                <img src="./img/bao-duong.png" alt="" width="100%">
+              </div>
+            </div>
+          </div>
+
+            <div class="row">
+              <div class="col-12 col-md-6 py-2">
+                
+                <div class="item-bao-tri text-light">
+                  <div>
+                    <img src="./img/bao-tri.png" alt="" width="100%">
+                  </div>
+                  <div class="content-baotri p-4">
+                    <h5 class="text-center py-2 fs-5">HỖ TRỢ KHÁCH HÀNG & SỬA CHỮA</h5>
+                    <p>Dịch vụ sửa chữa của iTEK ELEVATOR bao gồm khảo sát, chẩn đoán và sửa chữa các lỗi kỹ thuật trên thang máy. Với kiến thức và kỹ năng chuyên môn, đội ngũ kỹ thuật viên của chúng tôi có khả năng xử lý mọi vấn đề từ nhỏ đến lớn, đảm bảo thang máy của bạn hoạt động trơn tru và an toàn</p>
+                  </div>
+
+                </div>
+              
+              </div>
+              <div class="col-12 col-md-6 py-2">
+                
+                <div class="item-bao-tri text-light">
+                  <div>
+                    <img src="./img/bao-tri.png" alt="" width="100%">
+                  </div>
+                  <div class="content-baotri p-4">
+                    <h5 class="text-center py-2 fs-5">BẢO TRÌ</h5>
+                    <p>Dịch vụ sửa chữa của iTEK ELEVATOR bao gồm khảo sát, chẩn đoán và sửa chữa các lỗi kỹ thuật trên thang máy. Với kiến thức và kỹ năng chuyên môn, đội ngũ kỹ thuật viên của chúng tôi có khả năng xử lý mọi vấn đề từ nhỏ đến lớn, đảm bảo thang máy của bạn hoạt động trơn tru và an toàn</p>
+                  </div>
+
+                </div>
+              
+              </div>
+            </div>
+
+            <div class="hotrongay">
+              <button>
+                <img src="./img/hotrongay.png" alt="" width="200px">
+              </button>
+            </div>
+        
+          </div>
+
+          <div
+            class="tab-pane fade"
+            id="decor"
+            role="tabpanel"
+            aria-labelledby="pills-profile-tab"
+          >
+          <div class="text-center">
+            <h2 class="fs-5">BẢO TRÌ SỬA CHỮA</h2>
+          </div>
+          <div class="content-bao-tri py-2">
+            
+              <p>
+                Tại iTEK ELEVATOR, chúng tôi tự hào là một trong những đơn vị
+                hàng đầu trong lĩnh vực sản xuất, lắp đặt, bảo trì bảo dưỡng và
+                sửa chữa và thay thế thiết bị thang máy. Với nhiều năm kinh
+                nghiệm và đội ngũ kỹ thuật viên chuyên nghiệp, chúng tôi cam kết
+                cung cấp cho khách hàng những dịch vụ chất lượng và đáng tin
+                cậy.  <br></br>
+                Dịch vụ bảo trì và sửa chữa thang máy đóng vai trò quan
+                trọng trong việc đảm bảo hoạt động an toàn, hiệu quả của thang
+                máy. Việc thực hiện bảo trì định kỳ và sửa chữa kịp thời giúp
+                kéo dài tuổi thọ của thang máy và giảm thiểu nguy cơ sự cố không
+                mong muốn. Đối với các tòa nhà cao tầng và công trình dân dụng,
+                việc sử dụng dịch vụ bảo trì và sửa chữa thang máy chất lượng
+                cao là một yếu tố quan trọng để đảm bảo sự an toàn và tiện ích
+                cho khách hàng.
+              </p>
+            
+          </div>
+
+          <br> <br> <br> <br>
+          <div class="text-center">
+            <h2 class="fs-5">TỐI ƯU HÓA VÒNG ĐỜI SẢN PHẨM</h2>
+          </div>
+          <div class="content-bao-tri py-2">
+            
+              <p>
+                Tại iTEK ELEVATOR, chúng tôi tự hào là một trong những đơn vị
+                hàng đầu trong lĩnh vực sản xuất, lắp đặt, bảo trì bảo dưỡng và
+                sửa chữa và thay thế thiết bị thang máy. Với nhiều năm kinh
+                nghiệm và đội ngũ kỹ thuật viên chuyên nghiệp, chúng tôi cam kết
+                cung cấp cho khách hàng những dịch vụ chất lượng và đáng tin
+                cậy.  <br></br>
+                Dịch vụ bảo trì và sửa chữa thang máy đóng vai trò quan
+                trọng trong việc đảm bảo hoạt động an toàn, hiệu quả của thang
+                máy. Việc thực hiện bảo trì định kỳ và sửa chữa kịp thời giúp
+                kéo dài tuổi thọ của thang máy và giảm thiểu nguy cơ sự cố không
+                mong muốn. Đối với các tòa nhà cao tầng và công trình dân dụng,
+                việc sử dụng dịch vụ bảo trì và sửa chữa thang máy chất lượng
+                cao là một yếu tố quan trọng để đảm bảo sự an toàn và tiện ích
+                cho khách hàng.
+              </p>
+            
+          </div>
+          <div class="img-bao-duong py-1">
+            <div class="row item-bao-duong py-5">
+              <div class="col-12 col-md-6 ">
+                <img src="./img/bao-duong.png" alt="" width="100%">
+              </div>
+              <div class="col-12 col-md-6 ">
+                <img src="./img/bao-duong.png" alt="" width="100%">
+              </div>
+            </div>
+          </div>
+
+            <div class="row">
+              <div class="col-12 col-md-6 py-2">
+                
+                <div class="item-bao-tri text-light">
+                  <div>
+                    <img src="./img/bao-tri.png" alt="" width="100%">
+                  </div>
+                  <div class="content-baotri p-4">
+                    <h5 class="text-center py-2 fs-5">HỖ TRỢ KHÁCH HÀNG & SỬA CHỮA</h5>
+                    <p>Dịch vụ sửa chữa của iTEK ELEVATOR bao gồm khảo sát, chẩn đoán và sửa chữa các lỗi kỹ thuật trên thang máy. Với kiến thức và kỹ năng chuyên môn, đội ngũ kỹ thuật viên của chúng tôi có khả năng xử lý mọi vấn đề từ nhỏ đến lớn, đảm bảo thang máy của bạn hoạt động trơn tru và an toàn</p>
+                  </div>
+
+                </div>
+              
+              </div>
+              <div class="col-12 col-md-6 py-2">
+                
+                <div class="item-bao-tri text-light">
+                  <div>
+                    <img src="./img/bao-tri.png" alt="" width="100%">
+                  </div>
+                  <div class="content-baotri p-4">
+                    <h5 class="text-center py-2 fs-5">BẢO TRÌ</h5>
+                    <p>Dịch vụ sửa chữa của iTEK ELEVATOR bao gồm khảo sát, chẩn đoán và sửa chữa các lỗi kỹ thuật trên thang máy. Với kiến thức và kỹ năng chuyên môn, đội ngũ kỹ thuật viên của chúng tôi có khả năng xử lý mọi vấn đề từ nhỏ đến lớn, đảm bảo thang máy của bạn hoạt động trơn tru và an toàn</p>
+                  </div>
+
+                </div>
+              
+              </div>
+            </div>
+
+            <div class="hotrongay">
+              <button>
+                <img src="./img/hotrongay.png" alt="" width="200px">
+              </button>
+            </div>
+        
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="doitac"></div>
+    <div class='congtac'>
+    
+    </div>
+    <div class="footer py-5"></div>
+<script src="./js/congtac.js"></script>
+    <script  src="./js/swiper.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/header.js"></script>
+    <script src="./js/footer.js"></script>
+    <script src="./js/doitac.js"></script>
+
+    <script>
+      // Create viewer
+      viewer = pannellum.viewer("panorama", {
+        type: "equirectangular",
+        autoLoad: true,
+        panorama: "./img/sp-360.png",
+      });
+      // Lấy tham chiếu đến nút tải và hình ảnh 360 độ
+      var downloadButton = document.getElementById("downloadButton");
+      var panoramaImage = "./img/sp-360.png"; // Đường dẫn đến hình ảnh 360 độ
+
+      // Thêm sự kiện click cho nút tải
+      downloadButton.addEventListener("click", function () {
+        // Tạo một liên kết tải về
+        var downloadLink = document.createElement("a");
+        downloadLink.href = panoramaImage;
+        downloadLink.download = "panorama.jpg"; // Tên mặc định cho tệp tải về
+        downloadLink.target = "_blank"; // Mở trong tab/ứng dụng mới
+
+        // Tự động kích hoạt sự kiện click cho liên kết tải về
+        var event = new MouseEvent("click", {
+          view: window,
+          bubbles: true,
+          cancelable: true,
+        });
+        downloadLink.dispatchEvent(event);
+      });
+    </script>
+    <script
+    type="text/javascript"
+    src="https://code.jquery.com/jquery-1.11.0.min.js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+  ></script>
+  <script>
+    $(".responsive").slick({
+      infinite: false,
+      speed: 300,
+      slidesToShow: 4,
+      slidesToScroll: 4,
+      prevArrow: $(".prev"),
+      nextArrow: $(".next"),
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+          },
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+          },
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+          },
+        },
+      ],
+    });
+  </script>
+  <script>
+      $(".responsives").slick({
+        infinite: false,
+        speed: 300,
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        prevArrow: $(".prevs"),
+        nextArrow: $(".nexts"),
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              infinite: true,
+            },
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+            },
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+            },
+          },
+        ],
+      });
+  </script>
+  <script>
+    $(".responsivess").slick({
+      infinite: false,
+      speed: 300,
+      slidesToShow: 4,
+      slidesToScroll: 4,
+      prevArrow: $(".prevss"),
+      nextArrow: $(".nextss"),
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+          },
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+          },
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+          },
+        },
+      ],
+    });
+</script>
+<script>
+  $(".responsivesss").slick({
+    infinite: false,
+    speed: 300,
+    slidesToShow: 8,
+    slidesToScroll: 8,
+    prevArrow: $(".prevsss"),
+    nextArrow: $(".nextsss"),
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 6,
+          slidesToScroll: 6,
+          infinite: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+        },
+      },
+    ],
+  });
+</script>
+    <script src="./js/hotline.js"></script>
+  </body>
+</html>

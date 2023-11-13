@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link href="https://fonts.cdnfonts.com/css/segoe-ui-4" rel="stylesheet" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+
+  <div id="hotline">
+
+  </div>
+
+    <div class="header"></div>
+
+    <div class="position-relative special-lienhe" id="doitac-desktop">
+      <img src="../img//bg-green-6.png" width="100%" />
+      <div class="container">
+        <div class="position-absolute top-0">
+          <div class="d-flex py-4 align-items-center">
+            <img src="./img/arrow-right.png" alt="" width="18px" />
+            <h3 class="fs-5 ms-1 text-light">LIÊN HỆ</h3>
+          </div>
+        </div>
+
+        <div class="position-absolute content-doingu">
+          <h2 class="fs-5 py-2 text-dark">ĐỘI NGŨ CHUYÊN GIA CỦA CHÚNG TÔI</h2>
+          <p>
+            Đội ngũ chăm sóc khách hàng của iTEK ELEVATOR Việt Nam là một đội
+            ngũ đáng tin cậy và đồng hành cùng khách hàng, đảm bảo rằng trải
+            nghiệm của khách hàng với công ty luôn tốt nhất và đáp ứng mọi mong
+            đợi.
+            <br />
+            <br />
+            Chuyên nghiệp: Đội ngũ chăm sóc khách hàng của chúng tôi được đào
+            tạo chuyên sâu về lĩnh vực thang máy và an toàn liên quan thang. Họ
+            có kiến thức vững vàng về không chỉ về thẩm mỹ mà còn về chuyên môn
+            lắp đặt, bảo trì tư vấn đúng nhu cầu giúp khách hàng có được sự tư
+            vấn và hỗ trợ chính xác, đáng tin cậy.
+          </p>
+        </div>
+      </div>
+
+      <div class="position-absolute btn-img-lienhe">
+        <div class="position-relative">
+          <img src='../img/button-lien-he.png' width=250px'/>
+          <div class="position-absolute text-btn-lienhe">
+            Điền thông tin theo yêu cầu
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="pt-5">
+      <div class="container">
+        <ul
+          class="nav nav-pills mb-3 align-items-center "
+          id="pills-tab"
+          role="tablist"
+        >
+          <li class="nav-item special-nav-link fw-" role="presentation">
+            <button
+              class="nav-link active fw-bold"
+              id="pills-home-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#hotrokhachhang"
+              type="button"
+              role="tab"
+              aria-controls="pills-home"
+              aria-selected="true"
+            >
+              Hỗ trợ khách hàng
+            </button>
+          </li>
+          <li class="nav-item special-nav-link" role="presentation">
+            <button
+              class="nav-link fw-bold"
+              id="pills-profile-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#hethongphanphoi"
+              type="button"
+              role="tab"
+              aria-controls="pills-profile"
+              aria-selected="false"
+            >
+              Hệ thống phân phối
+            </button>
+          </li>
+          <li class="nav-item special-nav-link" role="presentation">
+            <button
+              class="nav-link fw-bold"
+              id="pills-contact-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#tuyendungnhansu"
+              type="button"
+              role="tab"
+              aria-controls="pills-contact"
+              aria-selected="false"
+            >
+              Tuyền dụng nhân sự
+            </button>
+          </li>
+        </ul>
+
+        <div class="tab-content pt-5" id="pills-tabContent">
+          <div
+            class="tab-pane fade show active relative"
+            id="hotrokhachhang"
+            role="tabpanel"
+            aria-labelledby="pills-home-tab"
+          >
+            <div class="position-relative form-info">
+              <div class="title-form fs-5 position-absolute">
+                <h2>ĐIỀN THÔNG TIN VÀ GỬI MẪU SẢN PHẨM</h2>
+              </div>
+              <div class="row main-input">
+                <div class="col-6 col-md-3 pb-3 position-relative">
+                  <input type="text" placeholder="Họ và tên" />
+                  <div class="icon-form">
+                    <img src="./img/user-form.png" alt="" width="20px" />
+                  </div>
+                </div>
+                <div class="col-6 col-md-3 pb-3 position-relative">
+                  <input type="text" placeholder="Địa chỉ" />
+                  <div class="icon-form">
+                    <img src="./img/home-form.png" alt="" width="20px" />
+                  </div>
+                </div>
+                <div class="col-6 col-md-3 pb-3">
+                  <input
+                    class="ps-3"
+                    type="text"
+                    placeholder="Kích thước hố thang"
+                  />
+                </div>
+                <div class="col-6 col-md-3 pb-3">
+                  <input class="ps-3" type="text" placeholder="Tải trọng" />
+                </div>
+
+                <div class="col-6 col-md-3 pb-3 position-relative">
+                  <input type="text" placeholder="Điện thoại" />
+                  <div class="icon-form">
+                    <img src="./img/phone-form.png" alt="" width="20px" />
+                  </div>
+                </div>
+                <div class="col-6 col-md-3 pb-3 position-relative">
+                  <input type="text" placeholder="Email" />
+                  <div class="icon-form">
+                    <img src="./img/mail-form.png" alt="" width="20px" />
+                  </div>
+                </div>
+                <div class="col-6 col-md-3 pb-3">
+                  <input class="ps-3" type="text" placeholder="Số tầng" />
+                </div>
+                <div class="col-6 col-md-3 pb-3">
+                  <input class="ps-3" type="text" placeholder="Tốc độ" />
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-12 col-md-6">
+                  <textarea
+                    class="text-note"
+                    placeholder="Nội dung yêu cầu"
+                    name=""
+                    id=""
+                    cols="30"
+                    rows="10"
+                  ></textarea>
+                  <div class="py-2">
+                    <label class="custom-file-upload">
+                      <div class="d-flex align-items-center">
+                        <img src="./img/upload.png" alt="" width="20px" />
+                        <span class="ms-2">Gửi mẫu sản phẩm</span>
+                      </div>
+
+                      <input type="file" />
+                    </label>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6">
+                  <h2 class="text-center text-light fst-italic fs-5 py-2">
+                    Cần chuyên viên hỗ trợ
+                  </h2>
+                  <div class="row">
+                    <div class="col-12 col-md-6 py-2">
+                      <div class="text-light nvht p-2 border rounded">
+                        <span>Thanh Trúc</span>
+                        <span>087 6868 333</span>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6 py-2">
+                      <div class="text-light nvht p-2 border rounded">
+                        <span>Thanh Trúc</span>
+                        <span>087 6868 333</span>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6 py-2">
+                      <div class="text-light nvht p-2 border rounded">
+                        <span>Thanh Trúc</span>
+                        <span>087 6868 333</span>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6 py-2">
+                      <div class="text-light nvht p-2 border rounded">
+                        <span>Thanh Trúc</span>
+                        <span>087 6868 333</span>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6 py-2">
+                      <div class="text-light nvht p-2 border rounded">
+                        <span>Thanh Trúc</span>
+                        <span>087 6868 333</span>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6 py-2">
+                      <div class="text-light nvht p-2 border rounded">
+                        <span>Thanh Trúc</span>
+                        <span>087 6868 333</span>
+                      </div>
+                    </div>
+                  </div>
+                 
+                </div>
+              </div>
+
+              <div class="d-flex justify-content-center">
+                <button class="btn-send px-5 py-3">GỬI YÊU CẦU</button>
+              </div>
+
+              <div class="row">
+                <div class="col-8">
+
+                </div>
+                <div class="col-12 col-md-4 position-absolute btn-phone-green">
+                  <div class="d-flex justify-content-between align-items-center">
+                  
+                   
+                    <div class="d-flex py-4 align-items-center justify-content-center">
+                    <div>
+                      <img
+                        src="./img/phone-greed.png"
+                        alt=""
+                        width="30px"
+                      />
+                    </div>
+                    <div class="ms-2 text-light">
+                      <h5>Hotline 087 6868 333</h5>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+               
+              </div>
+            
+            </div>  
+            <br> <br> <br>
+
+            <div class="p-5 map">
+              <h2 class="d-flex align-items-center">
+                <img src="./img/icon-map.png" alt="" width="20px" />
+                <span class="ms-2">HÃY ĐẾN THĂM VĂN PHÒNG CỦA CHÚNG TÔI</span>
+              </h2>
+              <br />
+              <p>
+                Địa chỉ: Số 215 - Lô C5, KĐT Đại Kim - Định Công, Hoàng Mai Hà
+                Nội
+              </p>
+              <img class="py-2" src="./img/map.png" width="100%" />
+            </div>
+            <br> <br> <br>
+            <div class="p-5 map">
+              <h2 class="d-flex align-items-center">
+                <img src="./img/icon-map.png" alt="" width="20px" />
+                <span class="ms-2">HÃY ĐẾN THĂM VĂN PHÒNG CỦA CHÚNG TÔI</span>
+              </h2>
+              <br />
+              <p>
+                Địa chỉ: Số 215 - Lô C5, KĐT Đại Kim - Định Công, Hoàng Mai Hà
+                Nội
+              </p>
+              <img class="py-2" src="./img/map.png" width="100%" />
+            </div>
+
+            <div class="row">
+              <div class="col-6 col-md-3">
+                <div class="d-flex align-items-center item-key">
+                  <img src="./img/arrow-right.png" width="20px" />
+                  <span class="ms-2">Thang máy gia đình cao cấp</span>
+                </div>
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="d-flex align-items-center item-key">
+                  <img src="./img/arrow-right.png" width="20px" />
+                  <span class="ms-2">Thang máy chung cư mini</span>
+                </div>
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="d-flex align-items-center item-key">
+                  <img src="./img/arrow-right.png" width="20px" />
+                  <span class="ms-2">Thang máy chở hàng thấp tầng</span>
+                </div>
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="d-flex align-items-center item-key">
+                  <img src="./img/arrow-right.png" width="20px" />
+                  <span class="ms-2">Thang máy itek chuẩn Châu Âu</span>
+                </div>
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="d-flex align-items-center item-key">
+                  <img src="./img/arrow-right.png" width="20px" />
+                  <span class="ms-2">Thang máy gia đình tiêu chuẩn</span>
+                </div>
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="d-flex align-items-center item-key">
+                  <img src="./img/arrow-right.png" width="20px" />
+                  <span class="ms-2">Thang máy khách sạn 5 sao</span>
+                </div>
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="d-flex align-items-center item-key">
+                  <img src="./img/arrow-right.png" width="20px" />
+                  <span class="ms-2">Thang máy chở hàng cao tầng</span>
+                </div>
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="d-flex align-items-center item-key">
+                  <img src="./img/arrow-right.png" width="20px" />
+                  <span class="ms-2">Lên sử dụng thang máy Itek</span>
+                </div>
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="d-flex align-items-center item-key">
+                  <img src="./img/arrow-right.png" width="20px" />
+                  <span class="ms-2">Thang máy gia đình thiết kế</span>
+                </div>
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="d-flex align-items-center item-key">
+                  <img src="./img/arrow-right.png" width="20px" />
+                  <span class="ms-2">Thang máy chung cư cao tầng</span>
+                </div>
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="d-flex align-items-center item-key">
+                  <img src="./img/arrow-right.png" width="20px" />
+                  <span class="ms-2">Thang máy chở hàng khách sạn</span>
+                </div>
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="d-flex align-items-center item-key">
+                  <img src="./img/arrow-right.png" width="20px" />
+                  <span class="ms-2">Thang máy toà nhà Quốc hội</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="tab-pane fade relative"
+            id="hethongphanphoi"
+            role="tabpanel"
+            aria-labelledby="pills-home-tab"
+          >
+            <div class="container">
+              <p class='hethong-content'>
+                Đội ngũ chăm sóc khách hàng của iTEK ELEVATOR Việt Nam là một
+                đội ngũ đáng tin cậy và đồng hành cùng khách hàng, đảm bảo rằng
+                trải nghiệm của khách hàng với công ty luôn tốt nhất và đáp ứng
+                mọi mong đợi. <br />
+                <br />
+                Chuyên nghiệp: Đội ngũ chăm sóc khách hàng của chúng tôi được
+                đào tạo chuyên sâu về lĩnh vực thang máy và an toàn liên quan
+                thang. Họ có kiến thức vững vàng về không chỉ về thẩm mỹ mà còn
+                về chuyên môn lắp đặt, bảo trì tư vấn đúng nhu cầu giúp khách
+                hàng có được sự tư vấn và hỗ trợ chính xác, đáng tin cậy.
+              </p>
+              <div class="row py-4">
+                <div class="col-6 col-md-3">
+                  <h5 class="d-flex py-2 align-items-center">
+                    <img src="./img/icon-map.png" alt="" width="20px" />
+                    <span class="ms-2 fw-bold"> HÀ NỘI</span>
+                  </h5> 
+                  <br>
+                  <p class="d-flex align-items-center">
+                    <img src="./img/home-black.png" alt="" width="20px" />
+                    <span class="address ms-2"
+                      >215 - Lô C5, KĐT Đại Kim - Định Công, Hoàng Mai, Hà
+                      Nội</span
+                    >
+                  </p>
+                </div>
+
+                <div class="col-6 col-md-3">
+                  <h5 class="d-flex py-2 align-items-center">
+                    <img src="./img/icon-map.png" alt="" width="20px" />
+                    <span class="ms-2 fw-bold"> HẢI PHÒNG</span>
+                  </h5>
+                  <br>
+                  <p class="d-flex align-items-center">
+                    <img src="./img/home-black.png" alt="" width="20px" />
+                    <span class="address ms-2"
+                      >Vinhomes Marina - Lê Duẩn, Hải Phòng</span
+                    >
+                  </p>
+                </div>
+                <div class="col-6 col-md-3">
+                  <h5 class="d-flex py-2 align-items-center">
+                    <img src="./img/icon-map.png" alt="" width="20px" />
+                    <span class="ms-2 fw-bold"> THÁI NGUYÊN</span>
+                  </h5>
+                  <br>
+                  <p class="d-flex align-items-center">
+                    <img src="./img/home-black.png" alt="" width="20px" />
+                    <span class="address ms-2">Đồng Hỷ, Thái Nguyên</span>
+                  </p>
+                </div>
+                <div class="col-6 col-md-3">
+                  <h5 class="d-flex py-2 align-items-center">
+                    <img src="./img/icon-map.png" alt="" width="20px" />
+                    <span class="ms-2 fw-bold"> BẮC GIANG</span>
+                  </h5>
+                  <br>
+                  <p class="d-flex align-items-center">
+                    <img src="./img/home-black.png" alt="" width="20px" />
+                    <span class="address ms-2"
+                      >Thị Trân Bích Động - Việt Yên, Bắc Giang</span
+                    >
+                  </p>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-6 col-md-3">
+                  <div class="d-flex align-items-center item-key">
+                    <img src="./img/arrow-right.png" width="20px" />
+                    <span class="ms-2">Thang máy gia đình cao cấp</span>
+                  </div>
+                </div>
+                <div class="col-6 col-md-3">
+                  <div class="d-flex align-items-center item-key">
+                    <img src="./img/arrow-right.png" width="20px" />
+                    <span class="ms-2">Thang máy chung cư mini</span>
+                  </div>
+                </div>
+                <div class="col-6 col-md-3">
+                  <div class="d-flex align-items-center item-key">
+                    <img src="./img/arrow-right.png" width="20px" />
+                    <span class="ms-2">Thang máy chở hàng thấp tầng</span>
+                  </div>
+                </div>
+                <div class="col-6 col-md-3">
+                  <div class="d-flex align-items-center item-key">
+                    <img src="./img/arrow-right.png" width="20px" />
+                    <span class="ms-2">Thang máy itek chuẩn Châu Âu</span>
+                  </div>
+                </div>
+                <div class="col-6 col-md-3">
+                  <div class="d-flex align-items-center item-key">
+                    <img src="./img/arrow-right.png" width="20px" />
+                    <span class="ms-2">Thang máy gia đình tiêu chuẩn</span>
+                  </div>
+                </div>
+                <div class="col-6 col-md-3">
+                  <div class="d-flex align-items-center item-key">
+                    <img src="./img/arrow-right.png" width="20px" />
+                    <span class="ms-2">Thang máy khách sạn 5 sao</span>
+                  </div>
+                </div>
+                <div class="col-6 col-md-3">
+                  <div class="d-flex align-items-center item-key">
+                    <img src="./img/arrow-right.png" width="20px" />
+                    <span class="ms-2">Thang máy chở hàng cao tầng</span>
+                  </div>
+                </div>
+                <div class="col-6 col-md-3">
+                  <div class="d-flex align-items-center item-key">
+                    <img src="./img/arrow-right.png" width="20px" />
+                    <span class="ms-2">Lên sử dụng thang máy Itek</span>
+                  </div>
+                </div>
+                <div class="col-6 col-md-3">
+                  <div class="d-flex align-items-center item-key">
+                    <img src="./img/arrow-right.png" width="20px" />
+                    <span class="ms-2">Thang máy gia đình thiết kế</span>
+                  </div>
+                </div>
+                <div class="col-6 col-md-3">
+                  <div class="d-flex align-items-center item-key">
+                    <img src="./img/arrow-right.png" width="20px" />
+                    <span class="ms-2">Thang máy chung cư cao tầng</span>
+                  </div>
+                </div>
+                <div class="col-6 col-md-3">
+                  <div class="d-flex align-items-center item-key">
+                    <img src="./img/arrow-right.png" width="20px" />
+                    <span class="ms-2">Thang máy chở hàng khách sạn</span>
+                  </div>
+                </div>
+                <div class="col-6 col-md-3">
+                  <div class="d-flex align-items-center item-key">
+                    <img src="./img/arrow-right.png" width="20px" />
+                    <span class="ms-2">Thang máy toà nhà Quốc hội</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="tab-pane fade relative"
+            id="tuyendungnhansu"
+            role="tabpanel"
+            aria-labelledby="pills-home-tab"
+          >
+            <div class="row">
+              <div class="col-6 col-md-3">
+                <img src="./img/ung-tuyen.png" alt="" width="100%" />
+                <h5 class="py-2 text-center">Chuyên viên kinh doanh</h5>
+                <p class="py-2 text-center">20/9 - 20/11/2023</p>
+                <div class="d-flex justify-content-center">
+                  <button class="btn-ungtuyen ">
+                    Ứng tuyển
+                  </button>
+                </div>
+              </div>
+              <div class="col-6 col-md-3">
+                <img src="./img/ung-tuyen.png" alt="" width="100%" />
+                <h5 class="py-2 text-center">Chuyên viên kinh doanh</h5>
+                <p class="py-2 text-center">20/9 - 20/11/2023</p>
+                <div class="d-flex justify-content-center">
+                  <button class="btn-ungtuyen">Ứng tuyển</button>
+                </div>
+              </div>
+              <div class="col-6 col-md-3">
+                <img src="./img/ung-tuyen.png" alt="" width="100%" />
+                <h5 class="py-2 text-center">Chuyên viên kinh doanh</h5>
+                <p class="py-2 text-center">20/9 - 20/11/2023</p>
+                <div class="d-flex justify-content-center">
+                  <button class="btn-ungtuyen">Ứng tuyển</button>
+                </div>
+              </div>
+              <div class="col-6 col-md-3">
+                <img src="./img/ung-tuyen.png" alt="" width="100%" />
+                <h5 class="py-2 text-center">Chuyên viên kinh doanh</h5>
+                <p class="py-2 text-center">20/9 - 20/11/2023</p>
+                <div class="d-flex justify-content-center">
+                  <button class="btn-ungtuyen">Ứng tuyển</button>
+                </div>
+              </div>
+            </div>
+            <div class="main-ung-tuyen pt-5">
+              <div class="form-ung-tuyen">
+                <h2 class="text-center title-nop-don">Nộp đơn xin ứng tuyển</h2>
+                <div class="py-2">
+                  <label class="py-2" for="">Họ và tên *</label>
+                  <input
+                    type="text"
+                    class="input-ung-tuyen"
+                    name=""
+                    placeholder="Họ và tên"
+                    id=""
+                  />
+                </div>
+                <div class="py-2">
+                  <label class="py-2" for="">Địa chỉ email *</label>
+                  <input
+                    type="text"
+                    class="input-ung-tuyen"
+                    name=""
+                    placeholder="Địa chỉ email"
+                    id=""
+                  />
+                </div>
+                <div class="py-2">
+                  <label class="py-2" for="">Số điện thoại *</label>
+                  <input
+                    type="text"
+                    class="input-ung-tuyen"
+                    name=""
+                    placeholder="Số điện thoại"
+                    id=""
+                  />
+                </div>
+                <div class="py-2">
+                  <label class="py-2" for="">Ngày tháng năm sinh *</label>
+                  <input
+                    type="text"
+                    class="input-ung-tuyen"
+                    name=""
+                    placeholder="Ngày tháng năm sinh"
+                    id=""
+                  />
+                </div>
+                <div class="py-2">
+                  <label class="py-2" for=""
+                    >Văn phòng mong muốn làm việc *</label
+                  >
+                  <input
+                    type="text"
+                    class="input-ung-tuyen"
+                    name=""
+                    placeholder="Khu vực"
+                    id=""
+                  />
+                </div>
+
+                <div class="py-2">
+                  <label class="py-2" for="">Gửi CV của bạn vào đây *</label>
+                  <input
+                    type="flie"
+                    class="input-ung-tuyen"
+                    name=""
+                    placeholder="Gửi CV của bạn vào đây"
+                    id=""
+                  />
+                </div>
+
+                <div class="py-2">
+                  <button class="submit-ung-tuyen">Nộp đơn ứng tuyển</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class='congtac'>
+    
+    </div>
+    <div class="footer py-5"></div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/header.js"></script>
+    <script src="./js/footer.js"></script>
+    <script src="./js/doitac.js"></script>
+    <script src="./js/congtac.js"></script>
+    <script src="./js/hotline.js"></script>
+  </body>
+</html>
